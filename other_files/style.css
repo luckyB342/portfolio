@@ -387,6 +387,12 @@ section{
     gap:2rem;
 }
 
+.portfolio .blog-box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45rem, 1fr));
+    gap:2rem;
+}
+
 .portfolio .box-container .box{
     height: 25rem;
     border-radius: .5rem;
